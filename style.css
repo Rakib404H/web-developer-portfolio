@@ -121,3 +121,35 @@ nav a {
     color: #757575;
 
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+display: flex;
+justify-content: space-around;
+
+}
+.info-description{
+color: #474747;
+/* line-height: 30px; */
+font-weight: 700;
+font-size: 20px;
+/* margin-top: 0;
+padding-top: 0; */
+}
+.about-info{
+
+}
+.info-title{
+    color: #757575;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* what i do section,,,,,,,,,,,, */
+
+.skill-parent{
+    display: flex;
+}
