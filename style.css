@@ -14,7 +14,7 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    padding: 15px 35px;
+    padding: 15px 25px;
     border: 0;
     font-size: 20px;
     font-weight: 700;
@@ -61,9 +61,9 @@ nav a {
 
 .header {
     background: #FFF8F3;
-    background-image: url('./resources/header_bg.png');
+    background-image: url('./resources/header_bg.png'), url('./resources/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -92,6 +92,13 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+
+}
+.contact1{
+    background: #FFF8F3;
+    color: #FD6E0A;
+    border-radius: 5px;
+border: 1px solid #FD6E0A;
 
 }
 
@@ -189,95 +196,114 @@ padding-top: 0; */
 }
 
 /* Resume section,,,,,,,,   */
-.resume-column-title{
+.resume-column-title {
     font-weight: 700;
     font-size: 30px;
     color: #474747;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
-.resume-item-title{
+
+.resume-item-title {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
-.resume-item-institute{
+
+.resume-item-institute {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.resume-item-description{
+
+.resume-item-description {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
-.resume-item{
+
+.resume-item {
     /* padding: 30px 150px; */
 }
-hr{
+
+hr {
     color: #D1D1D1;
-    
+
 }
-.cv-button{
+
+.cv-button {
     text-align: center;
     margin-top: 50px;
 }
-.resume-section{
+
+.resume-section {
     margin-bottom: 150px;
 }
+
 /* footer part */
-.footer{
+.footer {
     background-color: #FFF8F3;
     padding: 150px 200px 0px 200px;
 }
-.footer-container{
+
+.footer-container {
     display: flex;
     gap: 100px;
     justify-content: space-between;
-    
+
 }
-.footer-title{
+
+.footer-title {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
 }
-.footer-description{
+
+.footer-description {
     color: #474747;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
 }
-.message input{
+
+.message input {
     margin-bottom: 25px;
     display: block;
     padding: 18px 35px;
-    
+
 }
-#your-message{
+
+#your-message {
     margin-bottom: 25px;
     padding-top: 18px;
     padding-left: 35px;
 }
-.contact{
+
+.contact {
     width: 50%;
 }
-.message input, textarea{
+
+.message input,
+textarea {
     border-radius: 5px;
-background:  ##FFF;
-border: 0;
-width: 50%;
+    background: ##FFF;
+    border: 0;
+    width: 50%;
 }
-.social-icons a{
+
+.social-icons a {
     margin-right: 20px;
 }
-.footer-logo{
+
+.footer-logo {
     padding-top: 150px;
     text-align: center;
 }
