@@ -235,7 +235,7 @@ hr{
 /* footer part */
 .footer{
     background-color: #FFF8F3;
-    padding: 150px 200px;
+    padding: 150px 200px 0px 200px;
 }
 .footer-container{
     display: flex;
@@ -258,7 +258,7 @@ hr{
     margin-bottom: 25px;
     display: block;
     padding: 18px 35px;
-    color: #be2424;
+    
 }
 #your-message{
     margin-bottom: 25px;
@@ -268,6 +268,16 @@ hr{
 .contact{
     width: 50%;
 }
-.message input textarea{
-    color: #be2424;
+.message input, textarea{
+    border-radius: 5px;
+background:  ##FFF;
+border: 0;
+width: 50%;
+}
+.social-icons a{
+    margin-right: 20px;
+}
+.footer-logo{
+    padding-top: 150px;
+    text-align: center;
 }
