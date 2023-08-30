@@ -33,8 +33,9 @@ nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav .hover:hover{
-    background-color:#FD6E0A;
+
+nav .hover:hover {
+    background-color: #FD6E0A;
     padding: 15px 15px;
     border-radius: 5px;
 
@@ -127,42 +128,104 @@ nav a {
     color: #757575;
 
 }
-main{
+
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.about-info-container{
-display: flex;
-justify-content: space-around;
+main section {
+    margin-top: 130px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 
 }
-.info-description{
-color: #474747;
-/* line-height: 30px; */
-font-weight: 700;
-font-size: 20px;
-/* margin-top: 0;
+
+.info-description {
+    color: #474747;
+    /* line-height: 30px; */
+    font-weight: 700;
+    font-size: 20px;
+    /* margin-top: 0;
 padding-top: 0; */
 }
-.about-info{
 
-}
-.info-title{
+.about-info {}
+
+.info-title {
     color: #757575;
     line-height: 30px;
     font-weight: 400;
     font-size: 20px;
 }
+
 /* what i do section,,,,,,,,,,,, */
 
-.skill-parent{
+.skill-parent {
     display: flex;
     gap: 24px;
 }
-.skill-set{
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.skill-set {
     border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+#what-i-do {
+    padding: 30px 150px;
+
+}
+
+/* Resume section,,,,,,,,   */
+.resume-column-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.resume-item{
+    /* padding: 30px 150px; */
+}
+hr{
+    color: #D1D1D1;
+    
+}
+.cv-button{
+    text-align: center;
+    margin-top: 50px;
 }
