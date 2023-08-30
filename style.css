@@ -229,3 +229,31 @@ hr{
     text-align: center;
     margin-top: 50px;
 }
+.resume-section{
+    margin-bottom: 150px;
+}
+/* footer part */
+.footer{
+    background-color: #FFF8F3;
+    padding: 150px 200px;
+}
+.footer-container{
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-description{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.message input{
+    margin-bottom: 25px;
+    display: block;
+}
