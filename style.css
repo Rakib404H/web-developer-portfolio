@@ -240,7 +240,8 @@ hr{
 .footer-container{
     display: flex;
     gap: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 .footer-title{
     color: #181818;
@@ -256,4 +257,17 @@ hr{
 .message input{
     margin-bottom: 25px;
     display: block;
+    padding: 18px 35px;
+    color: #be2424;
+}
+#your-message{
+    margin-bottom: 25px;
+    padding-top: 18px;
+    padding-left: 35px;
+}
+.contact{
+    width: 50%;
+}
+.message input textarea{
+    color: #be2424;
 }
