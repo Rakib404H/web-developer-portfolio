@@ -258,6 +258,7 @@ hr {
     display: flex;
     gap: 100px;
     justify-content: space-between;
+    background-color: #FFF8F3;
 
 }
 
@@ -280,7 +281,10 @@ hr {
     padding: 18px 35px;
 
 }
+.eml{
+    width: 100%;
 
+}
 #your-message {
     margin-bottom: 25px;
     padding-top: 18px;
@@ -290,13 +294,27 @@ hr {
 .contact {
     width: 50%;
 }
+.message{
+    /* border: 1px solid #FD6E0A; */
+    width: auto;
+}
+.inp{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: auto;
+    /* margin: 5px; */
+}
 
 .message input,
 textarea {
+    
     border-radius: 5px;
     background: ##FFF;
     border: 0;
-    width: 50%;
+    width: 81%;
 }
 
 .social-icons a {
@@ -307,9 +325,7 @@ textarea {
     padding-top: 150px;
     text-align: center;
 }
-.hide{
-    display: none;
-}
+
 /* Media query,,,,,,,,,,,,,,,,, */
 
 /* mobile devices,,,,,,,,,,,,,,, */
@@ -317,8 +333,66 @@ textarea {
 @media screen and (max-width:576px) {
     .skill-parent{
         flex-direction: column;
+        justify-content: center;
+        align-items: start;
     }
     #what-i-do{
         padding: 20px;
     }
+    .resume-container{
+        flex-direction: column;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    .experience-column{
+        padding: 5px;
+    }
+    .footer-container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        width: 100%;
+        margin: 100px;
+    }
+    .resume-column{
+        width: 100%;
+    }
+    .footer{
+        border: 1px solid rebeccapurple;
+        background-color: none;
+        margin: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .contact, .message{
+        /* border: 1px solid rebeccapurple; */
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: 0px;
+    }
+    .social-icons {
+        display: flex;
+        justify-content: start;
+    }
+    .social-icons a{
+        padding: 0 20px;
+    }
+    .inp{
+        /* border: 1px solid rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        width: auto;
+        /* margin: 5px; */
+    }
+    .message{
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+    
 }
